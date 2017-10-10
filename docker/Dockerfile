@@ -123,6 +123,6 @@ RUN set -e \
 	fi
 
 EXPOSE 8080
-ADD helloworld /usr/local/tomcat/webapps
+COPY helloworld.war /usr/local/tomcat/webapps
 CMD ["catalina.sh", "run"]
 
