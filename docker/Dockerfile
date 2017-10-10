@@ -1,2 +1,2 @@
 FROM tomcat
-ADD deploy /usr/local/tomcat/webapps
+ADD helloworld /usr/local/tomcat/webapps
