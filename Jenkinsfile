@@ -7,10 +7,10 @@ node {
         checkout scm
     }
     stage('Build App') {
-          steps {
+         
         sh 'mvn --version'
-        sh 'mvn install'
-          }
+        /*sh 'mvn install'*/
+        
     }
     stage('Build image') {
         /* This builds the actual image; synonymous to
