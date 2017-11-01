@@ -8,7 +8,6 @@ node {
     }
     stage('Build App') {
           steps {
-        checkout scm
         sh 'mvn --version'
         sh 'mvn install'
           }
