@@ -6,7 +6,9 @@ node {
 
         checkout scm
     }
-
+    stage('Build App') {
+    checkout scm sh 'mvn clean install' 
+    }
     stage('Build image') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
