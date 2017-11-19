@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: capgemini
-        image: iponnam/devops:latest
+        image: iponnam/cgemini:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
