@@ -14,16 +14,4 @@ template:
     - name: capgemini-pod
       image: iponnam/cgemini:latest
       ports:
-      -containerPort: 8080
-
-
-
-
-
-
-
-
-
-
-
-
+      - containerPort: 8080
