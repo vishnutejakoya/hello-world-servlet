@@ -123,6 +123,5 @@ RUN set -e \
 	fi
 
 EXPOSE 8080
-COPY helloworld.war /usr/local/tomcat/webapps
 COPY tomcat-users.xml /usr/local/tomcat/conf/tomcat-user.xml
 CMD ["catalina.sh", "run"]
